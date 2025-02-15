@@ -1,9 +1,14 @@
 {
+  "cleanUrls": true,
     "builds": [
       {
         "src": "index.html",
+        "public": "assets",
+
         "use": "@vercel/static"
+        
       }
     ]
+    
   }
   
