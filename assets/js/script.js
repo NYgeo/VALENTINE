@@ -12,13 +12,13 @@ const answers_no = {
 };
 
 const images_no = [
-    "public/images/asheating.jpeg",
-    "public/images/shawty.jpg",
-    "public/images/dany.jpg",
-    "public/images/mr.longveinyahdih.png",
-    "public/images/prodigy.jpeg",
-    "public/images/sonic-devil.gif",
-    "public/images/loco.jpg"
+    "assets/images/asheating.jpeg",
+    "assets/images/shawty.jpg",
+    "assets/images/dany.jpg",
+    "assets/images/mr.longveinyahdih.png",
+    "assets/images/prodigy.jpeg",
+    "assets/images/sonic-devil.gif",
+    "assets/images/loco.jpg"
 ];
 
 const answers_yes = {
@@ -74,7 +74,7 @@ yes_button.addEventListener('click', () => {
     if (yes_button.disabled) return;
 
     let banner = document.getElementById('banner');
-    banner.src = "public/images/yes.gif";
+    banner.src = "assets/images/yes.gif";
     refreshBanner();
     
     // Hide both buttons after Yes is clicked
